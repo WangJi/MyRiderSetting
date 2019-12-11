@@ -94,6 +94,10 @@
   </action>
   <action id="Print" />
   <action id="QuickActionPopup" />
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="shift ctrl f1" />
+    <keyboard-shortcut first-keystroke="ctrl q" />
+  </action>
   <action id="RefactoringMenuRenameFile">
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
