@@ -12,6 +12,7 @@
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="CodeCleanup" />
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="alt right" />
   </action>
@@ -61,6 +62,7 @@
   <action id="EditorStartNewLineBefore">
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
   </action>
+  <action id="EditorToggleUseSoftWraps" />
   <action id="ExpressionTypeInfo">
     <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
@@ -77,6 +79,7 @@
   <action id="Images.Editor.ActualSize">
     <keyboard-shortcut first-keystroke="ctrl divide" />
   </action>
+  <action id="InsertLiveTemplate" />
   <action id="KotlinShellExecute" />
   <action id="MethodDown" />
   <action id="MethodUp" />
@@ -98,6 +101,10 @@
     <keyboard-shortcut first-keystroke="shift ctrl f1" />
     <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
+  <action id="RecentFiles">
+    <keyboard-shortcut first-keystroke="ctrl comma" />
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
   <action id="RefactoringMenuRenameFile">
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
@@ -111,6 +118,7 @@
   <action id="Rerun">
     <keyboard-shortcut first-keystroke="shift ctrl f5" />
   </action>
+  <action id="RiderTypeHierarchy.BaseOnThisType" />
   <action id="RunDashboard.CopyConfiguration" />
   <action id="SelectAllOccurrences">
     <keyboard-shortcut first-keystroke="shift ctrl alt j" />
@@ -130,16 +138,22 @@
     <keyboard-shortcut first-keystroke="alt f7" />
     <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>
+  <action id="SilentCodeCleanup" />
   <action id="SmartTypeCompletion">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
   <action id="StopBackgroundProcesses" />
+  <action id="SurroundWithLiveTemplate" />
+  <action id="SwitcherIterateItems" />
+  <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="TagDocumentationNavigation" />
+  <action id="TypeHierarchy" />
   <action id="UML.ActualSize">
     <keyboard-shortcut first-keystroke="ctrl divide" />
   </action>
   <action id="Uml.NodeIntentions" />
   <action id="Uml.ShowDiff" />
+  <action id="Unscramble" />
   <action id="ViewSource" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.MoveWatchDown" />
