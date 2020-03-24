@@ -34,22 +34,22 @@
     <option name="tableQualification" value="Always" />
   </component>
   <component name="TodoConfiguration">
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;note)(\W|$)(.*)" />
     <pattern pattern="\bNotImplementedException\b" />
-    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
     <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
-    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;Important)(\W|$)(.*)" />
     <pattern useCustomColors="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;hack)(\W|$)(.*)">
       <option name="FOREGROUND" value="fffdf9" />
       <option name="BACKGROUND" value="396dbb" />
       <option name="FONT_TYPE" value="2" />
       <option name="ERROR_STRIPE_COLOR" value="977ab" />
     </pattern>
-    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;note)(\W|$)(.*)" />
     <pattern icon="important" useCustomColors="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;critical)(\W|$)(.*)">
       <option name="FOREGROUND" value="ff8934" />
       <option name="FONT_TYPE" value="2" />
       <option name="ERROR_STRIPE_COLOR" value="977ab" />
     </pattern>
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;Important)(\W|$)(.*)" />
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
   </component>
   <component name="YamlEditorOptions">
     <option name="useSmartPaste" value="false" />
