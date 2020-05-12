@@ -41,6 +41,11 @@
     <pattern icon="important" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;critical)(\W|$)(.*)" />
     <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;Important)(\W|$)(.*)" />
     <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
+    <pattern icon="important" useCustomColors="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;FIXME)(\W|$)(.*)">
+      <option name="FOREGROUND" value="a8c023" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
   </component>
   <component name="YamlEditorOptions">
     <option name="useSmartPaste" value="false" />
