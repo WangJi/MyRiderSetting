@@ -1,4 +1,8 @@
 <keymap version="1" name="Visual Studio copy" parent="Visual Studio">
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="ctrl x" />
+    <keyboard-shortcut first-keystroke="shift delete" />
+  </action>
   <action id="Arrangement.Alias.Rule.Match.Condition.Move.Up" />
   <action id="Arrangement.Rule.Edit" />
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
@@ -54,7 +58,14 @@
   <action id="EditorChooseLookupItemCompleteStatement" />
   <action id="EditorChooseLookupItemDot" />
   <action id="EditorCompleteStatement" />
+  <action id="EditorCut">
+    <keyboard-shortcut first-keystroke="ctrl x" />
+    <keyboard-shortcut first-keystroke="shift delete" />
+  </action>
   <action id="EditorDuplicate" />
+  <action id="EditorSelectLine">
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="ctrl period" />
   </action>
@@ -125,6 +136,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl f5" />
   </action>
   <action id="RiderTypeHierarchy.BaseOnThisType" />
+  <action id="RiderUnitTestRunSolutionTwAction" />
   <action id="RunDashboard.CopyConfiguration" />
   <action id="SelectAllOccurrences">
     <keyboard-shortcut first-keystroke="shift ctrl alt j" />
@@ -139,6 +151,9 @@
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
   <action id="ShowContent" />
+  <action id="ShowExecutionPoint">
+    <keyboard-shortcut first-keystroke="alt multiply" />
+  </action>
   <action id="ShowFilterPopup" />
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="alt f7" />
