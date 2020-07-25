@@ -34,14 +34,14 @@
     <option name="tableQualification" value="Always" />
   </component>
   <component name="TodoConfiguration">
-    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
-    <pattern icon="important" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;FIXME)(\W|$)(.*)" />
-    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;Important)(\W|$)(.*)" />
-    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
-    <pattern icon="important" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;critical)(\W|$)(.*)" />
-    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;hack)(\W|$)(.*)" />
     <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;note)(\W|$)(.*)" />
     <pattern pattern="\bNotImplementedException\b" />
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;hack)(\W|$)(.*)" />
+    <pattern icon="important" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;critical)(\W|$)(.*)" />
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;Important)(\W|$)(.*)" />
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
+    <pattern icon="important" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;FIXME)(\W|$)(.*)" />
   </component>
   <component name="YamlEditorOptions">
     <option name="useSmartPaste" value="false" />
