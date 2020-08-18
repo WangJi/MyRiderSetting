@@ -1,5 +1,6 @@
 <application>
   <component name="CodeInsightSettings">
+    <option name="completionCaseSensitive" value="2" />
     <option name="SHOW_PARAMETER_NAME_HINTS_ON_COMPLETION" value="true" />
     <option name="PARAMETER_INFO_DELAY" value="0" />
     <option name="COMPLETION_CASE_SENSITIVE" value="2" />
@@ -34,14 +35,14 @@
     <option name="tableQualification" value="Always" />
   </component>
   <component name="TodoConfiguration">
-    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;note)(\W|$)(.*)" />
     <pattern pattern="\bNotImplementedException\b" />
     <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
-    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;hack)(\W|$)(.*)" />
-    <pattern icon="important" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;critical)(\W|$)(.*)" />
-    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;Important)(\W|$)(.*)" />
     <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;Important)(\W|$)(.*)" />
+    <pattern icon="important" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;critical)(\W|$)(.*)" />
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;hack)(\W|$)(.*)" />
     <pattern icon="important" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;FIXME)(\W|$)(.*)" />
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;note)(\W|$)(.*)" />
   </component>
   <component name="YamlEditorOptions">
     <option name="useSmartPaste" value="false" />
