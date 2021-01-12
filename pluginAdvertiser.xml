@@ -407,11 +407,47 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.fs">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.rider.fsharp" />
+              <option name="myPluginName" value="F# Support" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.fsi">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.rider.fsharp" />
+              <option name="myPluginName" value="F# Support" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.fsproj">
           <value>
             <plugin>
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.fsscript">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.rider.fsharp" />
+              <option name="myPluginName" value="F# Support" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.fsx">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.rider.fsharp" />
+              <option name="myPluginName" value="F# Support" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -565,6 +601,15 @@
             <plugin>
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.http">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.restClient" />
+              <option name="myPluginName" value="HTTP Client" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -799,6 +844,24 @@
             <plugin>
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.ml">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.rider.fsharp" />
+              <option name="myPluginName" value="F# Support" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.mli">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.rider.fsharp" />
+              <option name="myPluginName" value="F# Support" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -1114,6 +1177,15 @@
             <plugin>
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.rest">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.restClient" />
+              <option name="myPluginName" value="HTTP Client" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -1874,6 +1946,15 @@
             </plugin>
           </value>
         </entry>
+        <entry key="http-client.cookies">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.restClient" />
+              <option name="myPluginName" value="HTTP Client" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
@@ -1923,6 +2004,11 @@
                   <entry key="DotNetStaticMethod">
                     <value>
                       <FeaturePluginData displayName=".NET Static Method" pluginName="IDEA CORE" pluginId="com.intellij" />
+                    </value>
+                  </entry>
+                  <entry key="HttpClient.HttpRequestRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="HTTP Request" pluginName="HTTP Client" pluginId="com.jetbrains.restClient" />
                     </value>
                   </entry>
                   <entry key="LaunchSettings">
