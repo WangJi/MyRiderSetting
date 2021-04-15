@@ -1,5 +1,68 @@
 <application>
+  <component name="ProjectViewFileNesting">
+    <nesting-rules>
+      <NestingRule child-file-suffix=".asax.cs" parent-file-suffix=".asax" />
+      <NestingRule child-file-suffix=".asax.designer.cs" parent-file-suffix=".asax" />
+      <NestingRule child-file-suffix=".asax.designer.fs" parent-file-suffix=".asax" />
+      <NestingRule child-file-suffix=".asax.designer.vb" parent-file-suffix=".asax" />
+      <NestingRule child-file-suffix=".asax.fs" parent-file-suffix=".asax" />
+      <NestingRule child-file-suffix=".asax.vb" parent-file-suffix=".asax" />
+      <NestingRule child-file-suffix=".ascx.cs" parent-file-suffix=".ascx" />
+      <NestingRule child-file-suffix=".ascx.designer.cs" parent-file-suffix=".ascx" />
+      <NestingRule child-file-suffix=".ascx.designer.fs" parent-file-suffix=".ascx" />
+      <NestingRule child-file-suffix=".ascx.designer.vb" parent-file-suffix=".ascx" />
+      <NestingRule child-file-suffix=".ascx.fs" parent-file-suffix=".ascx" />
+      <NestingRule child-file-suffix=".ascx.vb" parent-file-suffix=".ascx" />
+      <NestingRule child-file-suffix=".aspx.cs" parent-file-suffix=".aspx" />
+      <NestingRule child-file-suffix=".aspx.designer.cs" parent-file-suffix=".aspx" />
+      <NestingRule child-file-suffix=".aspx.designer.fs" parent-file-suffix=".aspx" />
+      <NestingRule child-file-suffix=".aspx.designer.vb" parent-file-suffix=".aspx" />
+      <NestingRule child-file-suffix=".aspx.fs" parent-file-suffix=".aspx" />
+      <NestingRule child-file-suffix=".aspx.vb" parent-file-suffix=".aspx" />
+      <NestingRule child-file-suffix=".designer.cs" parent-file-suffix=".cs" />
+      <NestingRule child-file-suffix=".generated.cs" parent-file-suffix=".cs" />
+      <NestingRule child-file-suffix=".resx" parent-file-suffix=".cs" />
+      <NestingRule child-file-suffix=".cshtml.cs" parent-file-suffix=".cshtml" />
+      <NestingRule child-file-suffix=".cs" parent-file-suffix=".edmx" />
+      <NestingRule child-file-suffix=".designer.cs" parent-file-suffix=".edmx" />
+      <NestingRule child-file-suffix=".designer.fs" parent-file-suffix=".edmx" />
+      <NestingRule child-file-suffix=".designer.vb" parent-file-suffix=".edmx" />
+      <NestingRule child-file-suffix=".fs" parent-file-suffix=".edmx" />
+      <NestingRule child-file-suffix=".vb" parent-file-suffix=".edmx" />
+      <NestingRule child-file-suffix=".designer.fs" parent-file-suffix=".fs" />
+      <NestingRule child-file-suffix=".generated.fs" parent-file-suffix=".fs" />
+      <NestingRule child-file-suffix=".resx" parent-file-suffix=".fs" />
+      <NestingRule child-file-suffix=".master.cs" parent-file-suffix=".master" />
+      <NestingRule child-file-suffix=".master.designer.cs" parent-file-suffix=".master" />
+      <NestingRule child-file-suffix=".master.designer.fs" parent-file-suffix=".master" />
+      <NestingRule child-file-suffix=".master.designer.vb" parent-file-suffix=".master" />
+      <NestingRule child-file-suffix=".master.fs" parent-file-suffix=".master" />
+      <NestingRule child-file-suffix=".master.vb" parent-file-suffix=".master" />
+      <NestingRule child-file-suffix=".designer.cs" parent-file-suffix=".resx" />
+      <NestingRule child-file-suffix=".designer.fs" parent-file-suffix=".resx" />
+      <NestingRule child-file-suffix=".designer.vb" parent-file-suffix=".resx" />
+      <NestingRule child-file-suffix=".designer.cs" parent-file-suffix=".settings" />
+      <NestingRule child-file-suffix=".designer.fs" parent-file-suffix=".settings" />
+      <NestingRule child-file-suffix=".designer.vb" parent-file-suffix=".settings" />
+      <NestingRule child-file-suffix=".cs" parent-file-suffix=".tt" />
+      <NestingRule child-file-suffix=".fs" parent-file-suffix=".tt" />
+      <NestingRule child-file-suffix=".generated.cs" parent-file-suffix=".tt" />
+      <NestingRule child-file-suffix=".generated.fs" parent-file-suffix=".tt" />
+      <NestingRule child-file-suffix=".generated.vb" parent-file-suffix=".tt" />
+      <NestingRule child-file-suffix=".vb" parent-file-suffix=".tt" />
+      <NestingRule child-file-suffix=".designer.vb" parent-file-suffix=".vb" />
+      <NestingRule child-file-suffix=".generated.vb" parent-file-suffix=".vb" />
+      <NestingRule child-file-suffix=".resx" parent-file-suffix=".vb" />
+      <NestingRule child-file-suffix=".xaml.cs" parent-file-suffix=".xaml" />
+      <NestingRule child-file-suffix=".xaml.fs" parent-file-suffix=".xaml" />
+      <NestingRule child-file-suffix=".xaml.vb" parent-file-suffix=".xaml" />
+      <NestingRule child-file-suffix=".designer.cs" parent-file-suffix=".xsd" />
+      <NestingRule child-file-suffix=".designer.fs" parent-file-suffix=".xsd" />
+      <NestingRule child-file-suffix=".designer.vb" parent-file-suffix=".xsd" />
+    </nesting-rules>
+  </component>
   <component name="UISettings">
     <option name="MAX_LOOKUP_WIDTH2" value="1000" />
+    <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
   </component>
 </application>
