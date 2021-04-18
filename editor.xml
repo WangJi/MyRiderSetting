@@ -19,6 +19,10 @@
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="CONSOLE" />
   </component>
+  <component name="JSEditorOptions">
+    <option name="ESCAPE_PASTED_TEXT" value="false" />
+    <option name="CONVERT_HTML_TO_JSX" value="false" />
+  </component>
   <component name="JetEditorOptions">
     <option name="donTShowConversionDialog" value="true" />
   </component>
