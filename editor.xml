@@ -44,7 +44,12 @@
     <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;fixme)(\W|$)(.*)" />
     <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;important)(\W|$)(.*)" />
     <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;note)(\W|$)(.*)" />
-    <pattern icon="important" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;critical)(\W|$)(.*)" />
+    <pattern icon="important" useCustomColors="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;critical)(\W|$)(.*)">
+      <option name="FOREGROUND" value="fffefe" />
+      <option name="BACKGROUND" value="ff472f" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
     <pattern pattern="\bNotImplementedException\b" />
     <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
     <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
